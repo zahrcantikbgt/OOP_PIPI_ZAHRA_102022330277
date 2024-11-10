@@ -1,10 +1,31 @@
+
+import java.util.ArrayList;
+
 // Don't delete any comments below!!!
 // Todo : Import Arraylist and Scanner
 
 public class ManajemenInventaris {
     // Todo : Create ArrayList of MakananKering (daftarMakananKering) and MakananBasah (daftarMakananBasah) to store items
+    ArrayList<MakananKering> daftarMakananKering = new ArrayList<>();
+    ArrayList<MakananBasah> daftarMakananBasah = new ArrayList<>();
+
 
     public void tambahMakananKering() {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Masukkan Nama Makanan: ");
+        String nama = scanner.nextLine();
+
+        System.out.print("Masukkan Jumlah Makanan: ");
+        Int jumlah = scanner.nextInt();
+
+        System.out.print("Masukkan Harga Makanan: ");
+        Int harga = scanner.nextInt();
+
+        System.out.print("Masukkan Brand Makanan: ");
+        String brand = scanner.nextLine();
+
+        System.out.printIn("")
         
         // Todo : Create input for Nama Makanan, Jumlah Makanan, Harga Makanan, and Brand Makanan
 
